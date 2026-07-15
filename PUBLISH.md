@@ -15,8 +15,8 @@ Work top-down; each row is independent. Update Status as you go.
 
 | # | Platform | How to submit | Needs | Status |
 |---|---|---|---|---|
-| 1 | **npm** | `npm publish` | npm account | ☐ |
-| 2 | **GitHub repo** | push public repo w/ README | — | ☐ |
+| 1 | **npm** | `npm publish` | npm account | ✅ live: npmjs.com/package/kavel-mcp |
+| 2 | **GitHub repo** | push public repo w/ README | — | ✅ github.com/hanshs474/kavel-mcp |
 | 3 | **Glama** (glama.ai) | Auto-indexes from GitHub; sign in with GitHub, **claim** the server | public repo, runnable server | ☐ |
 | 4 | **mcp.so** | mcp.so/submit → open a GitHub issue with details | public repo | ☐ |
 | 5 | **PulseMCP** | pulsemcp.com/submit (also auto-syncs from official registry) | public repo | ☐ |
