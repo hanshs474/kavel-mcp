@@ -23,8 +23,9 @@ Work top-down; each row is independent. Update Status as you go.
 | 6 | **awesome-mcp-servers** | PR to punkpeye/awesome-mcp-servers; add under a fitting category, alphabetical. Agent PRs: add 🤖🤖🤖 to the PR title | repo live | ⏳ PR open in Art & Culture, Glama badge added, awaiting merge |
 | 7 | **Official MCP Registry** | `mcp-publisher` CLI with `server.json`; verify namespace `ai.kavel` via **DNS TXT on kavel.ai** | domain DNS access, npm pkg | ✅ ai.kavel/kavel-mcp v0.1.1, kavel.ai verified |
 | 8 | **Smithery** (smithery.ai) | `smithery mcp publish` (CLI) or claim after crawl. Verify config against current Smithery docs first | npm pkg / reachable server, no auth wall | ☐ |
-| 9 | **Skill: ClaudeSkills.info** | Community submission of the skills repo | skill folder public | ☐ |
-| 10 | **Skill: skills.sh** | Vercel-backed CLI package manager for skills | skill folder public | ☐ |
+| 9 | **Skill repo/marketplace** | `.claude-plugin/marketplace.json` + `skills/kavel-image-studio/` in repo | — | ✅ installable: npx skills add / plugin marketplace add hanshs474/kavel-mcp |
+| 10 | **Skill: skills.sh** | No submission — auto-discovered via `npx skills add` install telemetry | valid SKILL.md | ✅ auto (share the add command) |
+| 11 | **Skill dirs (claudeskills.club/.info, awesome-claude-skills)** | web form / GitHub PR | repo public | ☐ |
 
 ## Registry gotchas (verified July 2026)
 
