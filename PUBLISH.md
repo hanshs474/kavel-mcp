@@ -21,7 +21,7 @@ Work top-down; each row is independent. Update Status as you go.
 | 4 | **mcp.so** | mcp.so/submit → open a GitHub issue with details | public repo | ☐ |
 | 5 | **PulseMCP** | pulsemcp.com/submit (also auto-syncs from official registry) | public repo | ☐ |
 | 6 | **awesome-mcp-servers** | PR to punkpeye/awesome-mcp-servers; add under a fitting category, alphabetical. Agent PRs: add 🤖🤖🤖 to the PR title | repo live | ☐ |
-| 7 | **Official MCP Registry** | `mcp-publisher` CLI with `server.json`; verify namespace `ai.kavel` via **DNS TXT on kavel.ai** | domain DNS access, npm pkg | ☐ |
+| 7 | **Official MCP Registry** | `mcp-publisher` CLI with `server.json`; verify namespace `ai.kavel` via **DNS TXT on kavel.ai** | domain DNS access, npm pkg | ✅ ai.kavel/kavel-mcp v0.1.1, kavel.ai verified |
 | 8 | **Smithery** (smithery.ai) | `smithery mcp publish` (CLI) or claim after crawl. Verify config against current Smithery docs first | npm pkg / reachable server, no auth wall | ☐ |
 | 9 | **Skill: ClaudeSkills.info** | Community submission of the skills repo | skill folder public | ☐ |
 | 10 | **Skill: skills.sh** | Vercel-backed CLI package manager for skills | skill folder public | ☐ |
