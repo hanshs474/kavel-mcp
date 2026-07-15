@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "ai.kavel/kavel-mcp",
+  "description": "Discover Kavel's AI photo & video generators, get model-tuned prompts, and open the right tool to generate on www.kavel.ai.",
+  "repository": {
+    "url": "https://github.com/hanshs474/kavel-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://www.kavel.ai",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "kavel-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
