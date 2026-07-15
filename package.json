@@ -1,6 +1,7 @@
 {
   "name": "kavel-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "ai.kavel/kavel-mcp",
   "description": "MCP server for Kavel (www.kavel.ai) — discover Kavel's AI photo/video generators, get model-tuned prompts, and open the right tool to generate. Tools: AI Hairstyle Changer, Figurine, Pet Portrait, Wedding Photo, 90s Yearbook, Dance Video, HD Photo Converter, and more.",
   "keywords": [
     "mcp",
