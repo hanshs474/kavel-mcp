@@ -17,10 +17,10 @@ Work top-down; each row is independent. Update Status as you go.
 |---|---|---|---|---|
 | 1 | **npm** | `npm publish` | npm account | ✅ live: npmjs.com/package/kavel-mcp |
 | 2 | **GitHub repo** | push public repo w/ README | — | ✅ github.com/hanshs474/kavel-mcp |
-| 3 | **Glama** (glama.ai) | Auto-indexes from GitHub; sign in with GitHub, **claim** the server | public repo, runnable server | ☐ |
+| 3 | **Glama** (glama.ai) | Auto-indexed; 4 tools introspected, Quality A. Optional: claim for discoverability | public repo, runnable server | ✅ indexed + badge (claim optional) |
 | 4 | **mcp.so** | mcp.so/submit → open a GitHub issue with details | public repo | ☐ |
 | 5 | **PulseMCP** | pulsemcp.com/submit (also auto-syncs from official registry) | public repo | ☐ |
-| 6 | **awesome-mcp-servers** | PR to punkpeye/awesome-mcp-servers; add under a fitting category, alphabetical. Agent PRs: add 🤖🤖🤖 to the PR title | repo live | ☐ |
+| 6 | **awesome-mcp-servers** | PR to punkpeye/awesome-mcp-servers; add under a fitting category, alphabetical. Agent PRs: add 🤖🤖🤖 to the PR title | repo live | ⏳ PR open in Art & Culture, Glama badge added, awaiting merge |
 | 7 | **Official MCP Registry** | `mcp-publisher` CLI with `server.json`; verify namespace `ai.kavel` via **DNS TXT on kavel.ai** | domain DNS access, npm pkg | ✅ ai.kavel/kavel-mcp v0.1.1, kavel.ai verified |
 | 8 | **Smithery** (smithery.ai) | `smithery mcp publish` (CLI) or claim after crawl. Verify config against current Smithery docs first | npm pkg / reachable server, no auth wall | ☐ |
 | 9 | **Skill: ClaudeSkills.info** | Community submission of the skills repo | skill folder public | ☐ |
