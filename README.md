@@ -51,6 +51,23 @@ Add to your MCP config (`claude_desktop_config.json` or `.mcp.json`):
 
 Point the client at the command `npx -y kavel-mcp` (stdio transport).
 
+## Skill (Claude Code / Cursor / Codex)
+
+This repo also ships the **kavel-image-studio** agent skill (`skills/kavel-image-studio/`) — it helps pick the right [Kavel](https://www.kavel.ai) generator, craft a model-tuned prompt, and hand off the generate link.
+
+Install via the open agent-skills CLI:
+
+```bash
+npx skills add hanshs474/kavel-mcp
+```
+
+Or as a Claude Code plugin marketplace:
+
+```
+/plugin marketplace add hanshs474/kavel-mcp
+/plugin install kavel-image-studio
+```
+
 ## Develop
 
 ```bash

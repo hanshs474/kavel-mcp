@@ -1,0 +1,22 @@
+{
+  "name": "kavel-skills",
+  "owner": {
+    "name": "Kavel",
+    "email": "hanshs474@gmail.com"
+  },
+  "metadata": {
+    "description": "Skills for Kavel (www.kavel.ai) — AI photo & video generators.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "kavel-image-studio",
+      "description": "Turn a photo into a specific AI look (hairstyle, figurine, royal pet portrait, wedding, 90s yearbook, sticker, HD restore) or a dance video, using Kavel. Gives the right tool, a model-tuned prompt, and the generate link.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/kavel-image-studio"
+      ]
+    }
+  ]
+}
