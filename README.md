@@ -18,7 +18,7 @@ No account or API key required to use this server — it helps you pick a tool a
 - [AI Hairstyle Changer](https://www.kavel.ai/image/ai-hairstyle-changer)
 - [AI Figurine Generator](https://www.kavel.ai/image/ai-figurine-generator)
 - [AI Pet Portrait Generator](https://www.kavel.ai/image/ai-pet-portrait-generator)
-- [AI Wedding Photo Generator](https://www.kavel.ai/image/ai-wedding-photo-generator)
+- [AI Muscle Generator](https://www.kavel.ai/image/ai-muscle-generator)
 - [90s Yearbook Photos](https://www.kavel.ai/image/90s-yearbook-photos)
 - [AI Dance Video Generator](https://www.kavel.ai/video/ai-dance-video-generator)
 - [HD Photo Converter](https://www.kavel.ai/image/hd-photo-converter)

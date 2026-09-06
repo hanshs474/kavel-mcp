@@ -166,18 +166,6 @@ export const KAVEL_TOOLS: KavelTool[] = [
       "Turn this into a cheesy 1990s high-school yearbook portrait of the same person — mottled blue laser studio backdrop, soft-focus glow, feathered nineties hair, a collared shirt under a sweater, faded scanned-print colour. Keep the same face.",
   },
   {
-    slug: "ai-wedding-photo-generator",
-    hub: "image",
-    title: "AI Wedding Photo Generator",
-    keyword: "AI Wedding Photo Generator",
-    desc: "See the two of you as a wedding portrait.",
-    model: "nano-banana-2-lite",
-    scene: "image-to-image",
-    needsPhoto: true,
-    recipe:
-      "Turn this into an elegant wedding photograph of the same couple — a white lace gown with a bouquet and a fitted black tuxedo, at a sunlit venue with a floral arch and warm golden-hour bokeh. Keep both faces and the pose.",
-  },
-  {
     slug: "ai-christmas-card-generator",
     hub: "image",
     title: "AI Christmas Card Generator",

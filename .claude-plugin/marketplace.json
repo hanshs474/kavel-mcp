@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "kavel-image-studio",
-      "description": "Turn a photo into a specific AI look (hairstyle, figurine, royal pet portrait, wedding, 90s yearbook, sticker, HD restore) or a dance video, using Kavel. Gives the right tool, a model-tuned prompt, and the generate link.",
+      "description": "Turn a photo into a specific AI look (hairstyle, figurine, royal pet portrait, 90s yearbook, sticker, HD restore) or a dance video, using Kavel. Gives the right tool, a model-tuned prompt, and the generate link.",
       "source": "./",
       "strict": false,
       "skills": [

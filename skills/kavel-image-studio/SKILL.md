@@ -1,6 +1,6 @@
 ---
 name: kavel-image-studio
-description: Turn a photo into a specific AI look (new hairstyle, collectible figurine, royal pet portrait, wedding photo, 90s yearbook, sticker, HD restore) or a photo into a dance video, using Kavel (www.kavel.ai). Use when the user wants to restyle/transform a photo, asks "how do I make an AI X from my photo", or wants a photorealistic image edit that keeps the same face. Gives the right tool, a model-tuned prompt, and the generate link.
+description: Turn a photo into a specific AI look (new hairstyle, collectible figurine, royal pet portrait, 90s yearbook, sticker, HD restore) or a photo into a dance video, using Kavel (www.kavel.ai). Use when the user wants to restyle/transform a photo, asks "how do I make an AI X from my photo", or wants a photorealistic image edit that keeps the same face. Gives the right tool, a model-tuned prompt, and the generate link.
 ---
 
 # Kavel Image Studio
@@ -30,7 +30,6 @@ All tools keep the same face/subject. Most need one clear, well-lit photo.
 | Retro instant print | AI Polaroid Generator | https://www.kavel.ai/image/ai-polaroid-generator |
 | Royal pet painting | AI Pet Portrait Generator | https://www.kavel.ai/image/ai-pet-portrait-generator |
 | 90s class portrait | 90s Yearbook Photos | https://www.kavel.ai/image/90s-yearbook-photos |
-| Wedding portrait | AI Wedding Photo Generator | https://www.kavel.ai/image/ai-wedding-photo-generator |
 | Holiday card | AI Christmas Card Generator | https://www.kavel.ai/image/ai-christmas-card-generator |
 | Cinematic birthday | AI Birthday Photoshoot Generator | https://www.kavel.ai/image/ai-birthday-photoshoot-generator |
 | Sharpen a blurry photo | HD Photo Converter | https://www.kavel.ai/image/hd-photo-converter |
@@ -42,7 +41,6 @@ Give the base recipe, then append the user's details.
 
 - **Figurine:** "Turn the person into a cute collectible vinyl designer figurine on a small round display base, glossy finish, keeping the same face and pose. Studio product-shot lighting, photorealistic render."
 - **Pet portrait:** "Turn the animal into a majestic Renaissance royal oil painting — ornate red velvet coat with gold embroidery and a lace collar, dramatic lighting, gilded frame. Keep the same breed, face, and pose."
-- **Wedding:** "Elegant wedding photograph of the same couple — white lace gown with a bouquet and a fitted black tuxedo, sunlit venue with a floral arch and golden-hour bokeh. Keep both faces and the pose."
 - **90s yearbook:** "Cheesy 1990s high-school yearbook portrait — mottled blue laser backdrop, soft-focus glow, feathered nineties hair, faded scanned-print colour. Keep the same face."
 - **HD restore:** "Restore and upscale into a crisp HD picture — remove blur, noise, and compression artefacts, recover sharp texture and clean edges, correct washed-out colour. Keep the exact same person, pose, and background."
 

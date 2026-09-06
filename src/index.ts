@@ -29,12 +29,12 @@ server.registerTool(
   {
     title: "List Kavel AI photo/video tools",
     description:
-      "Browse or search Kavel's AI photo & video generators (hairstyle changer, figurine, pet portrait, wedding photo, 90s yearbook, dance video, HD photo converter, and more). Use `query` to match a goal like 'make my dog look royal' or 'turn my selfie into a figurine'. Each result includes the direct URL on www.kavel.ai to generate it.",
+      "Browse or search Kavel's AI photo & video generators (hairstyle changer, figurine, pet portrait, 90s yearbook, dance video, HD photo converter, and more). Use `query` to match a goal like 'make my dog look royal' or 'turn my selfie into a figurine'. Each result includes the direct URL on www.kavel.ai to generate it.",
     inputSchema: {
       query: z
         .string()
         .optional()
-        .describe("Optional goal or keyword to match, e.g. 'wedding photo', 'dancing video'."),
+        .describe("Optional goal or keyword to match, e.g. 'new hairstyle', 'dancing video'."),
       hub: z
         .enum(["image", "video"])
         .optional()
@@ -128,7 +128,7 @@ server.registerTool(
     inputSchema: {
       tool: z
         .string()
-        .describe("The tool slug from list_kavel_tools, e.g. 'ai-wedding-photo-generator'."),
+        .describe("The tool slug from list_kavel_tools, e.g. 'ai-hairstyle-changer'."),
     },
   },
   async ({ tool }) => {
