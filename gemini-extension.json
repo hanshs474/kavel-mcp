@@ -1,0 +1,12 @@
+{
+  "name": "kavel",
+  "version": "0.1.1",
+  "description": "Find the right Kavel AI image or video tool for a job, get a model-tuned prompt, and open it ready to generate — hairstyle changer, figurine, pet portrait, Nano Banana 2, Veo 3.1 and more.",
+  "mcpServers": {
+    "kavel": {
+      "command": "npx",
+      "args": ["-y", "kavel-mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

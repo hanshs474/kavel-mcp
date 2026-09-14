@@ -84,3 +84,9 @@ npm start
 ## License
 
 MIT © [Kavel](https://www.kavel.ai)
+
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/hanshs474/kavel-mcp
+```
