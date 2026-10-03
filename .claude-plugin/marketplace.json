@@ -1,22 +1,19 @@
 {
-  "name": "kavel-skills",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "kavel",
+  "description": "Kavel AI image and video tools for Claude Code: generate images with no API key and find the right Kavel tool with a model-tuned prompt.",
   "owner": {
     "name": "Kavel",
-    "email": "hanshs474@gmail.com"
-  },
-  "metadata": {
-    "description": "Skills for Kavel (www.kavel.ai) — AI photo & video generators.",
-    "version": "0.1.0"
+    "email": "support@kavel.ai"
   },
   "plugins": [
     {
-      "name": "kavel-image-studio",
-      "description": "Turn a photo into a specific AI look (hairstyle, figurine, royal pet portrait, 90s yearbook, sticker, HD restore) or a dance video, using Kavel. Gives the right tool, a model-tuned prompt, and the generate link.",
+      "name": "kavel",
+      "description": "Generate AI images with no API key, and find the right Kavel image or video tool with a model-tuned prompt.",
+      "version": "0.1.1",
       "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/kavel-image-studio"
-      ]
+      "category": "productivity",
+      "homepage": "https://www.kavel.ai"
     }
   ]
 }

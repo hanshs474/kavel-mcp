@@ -1,0 +1,10 @@
+{
+  "name": "kavel",
+  "version": "0.1.1",
+  "description": "Generate AI images with no API key, and find the right Kavel image or video tool with a model-tuned prompt.",
+  "author": { "name": "Kavel", "url": "https://www.kavel.ai" },
+  "homepage": "https://www.kavel.ai",
+  "repository": "https://github.com/hanshs474/kavel-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "image-generation", "mcp", "no-api-key"]
+}
