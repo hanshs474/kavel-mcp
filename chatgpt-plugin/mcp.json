@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kavel": {
+      "type": "streamable-http",
+      "url": "https://www.kavel.ai/api/mcp"
+    }
+  }
+}

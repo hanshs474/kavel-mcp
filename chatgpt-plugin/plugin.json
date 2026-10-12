@@ -1,0 +1,91 @@
+{
+  "name": "kavel",
+  "version": "1.0.0",
+  "description": "Make and edit images with Kavel's AI photo effects inside ChatGPT: pet portraits, coloring pages, family crests, D&D maps, figurines and 100+ more, on your Kavel account.",
+  "author": {
+    "name": "Kavel",
+    "email": "support@kavel.ai",
+    "url": "https://www.kavel.ai"
+  },
+  "homepage": "https://www.kavel.ai",
+  "repository": "https://github.com/hanshs474/kavel-mcp",
+  "license": "MIT",
+  "keywords": ["image generation", "photo editing", "ai art", "coloring pages", "pet portrait"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Kavel",
+        "shortDescription": "AI photo effects and images",
+        "longDescription": "Kavel turns a sentence or a photo into a finished image without leaving the chat.\n\nAsk for an effect by name or describe what you want: a royal oil portrait of your dog, a dinosaur coloring page for your kid, a family crest, a D&D battle map, a Pokemon-style trainer card. Kavel finds the matching tool among 120+ tuned recipes and runs it on your photo or your words.\n\n- Browse every effect without an account.\n- Connect your Kavel account to generate. New accounts start with free credits; free-plan images carry a small watermark and wait in a short queue.\n- Attach a photo in the chat and Kavel edits it.\n- Results also appear in your Kavel history at kavel.ai.\n\nVideo effects (trend dances, mecha transformations and more) open on kavel.ai.",
+        "developerName": "Kavel",
+        "category": "Design",
+        "websiteURL": "https://www.kavel.ai",
+        "supportURL": "https://www.kavel.ai/about",
+        "privacyPolicyURL": "https://www.kavel.ai/privacy-policy",
+        "termsOfServiceURL": "https://www.kavel.ai/terms-of-service",
+        "defaultPrompt": [
+          "Turn this photo of my dog into a royal oil painting",
+          "Make a dinosaur coloring page for my 6-year-old",
+          "Design a family crest for the Rivera family"
+        ],
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      },
+      "review": {
+        "demo_recording_url": "",
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Browse effects without an account",
+              "prompt": "What can Kavel do with a photo of my cat?",
+              "tools_triggered": "find_kavel_tool",
+              "expected_behavior": "Lists matching Kavel tools (for example AI Pet Portrait Generator) with what each needs and its kavel.ai link. No sign-in prompt."
+            },
+            {
+              "description": "Text-to-image from a tool recipe",
+              "prompt": "Use Kavel to make a dinosaur coloring page for a 6-year-old.",
+              "tools_triggered": "find_kavel_tool, generate_kavel_image",
+              "expected_behavior": "Finds dinosaur-coloring-pages and generates a black-and-white line-art coloring page, returned as an image in the chat (watermarked on a free account)."
+            },
+            {
+              "description": "Edit an attached photo",
+              "prompt": "Turn this photo of my dog into a royal oil painting with Kavel. (attach a dog photo)",
+              "tools_triggered": "generate_kavel_image",
+              "expected_behavior": "Runs ai-pet-portrait-generator on the attached photo and returns the painted portrait of the same dog. If the free queue is still running, returns a task id and the result arrives through check_kavel_generation."
+            },
+            {
+              "description": "Pick up a run that was still rendering",
+              "prompt": "Is my Kavel image ready yet?",
+              "tools_triggered": "check_kavel_generation",
+              "expected_behavior": "Returns the finished image for the earlier task id, or how many seconds remain in the queue."
+            },
+            {
+              "description": "Check the account balance",
+              "prompt": "How many Kavel credits do I have left?",
+              "tools_triggered": "get_kavel_balance",
+              "expected_behavior": "Returns the remaining credit balance of the linked Kavel account."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Unrelated request",
+              "prompt": "Book me a flight to Tokyo next Friday."
+            },
+            {
+              "description": "General question that needs no image",
+              "prompt": "What is the capital of Australia?"
+            },
+            {
+              "description": "Video request (videos are made on kavel.ai, not in chat)",
+              "prompt": "Make a video of my two cats dancing to Alors on Danse."
+            }
+          ]
+        }
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "First release: browse 120+ Kavel image effects, generate and edit images on a linked Kavel account, check results and credit balance."
+      }
+    }
+  }
+}
